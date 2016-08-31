@@ -9,9 +9,9 @@ baseurl: '/'
 author:
   name: 'Alper Başsaraç'
   email: alper.bassarac@gmail.com
-  twitter_username: alperbas
+  twitter_username: alperbasssarac
   github_username:  alperbas
-  linkedin_username:  alperbas
+  linkedin_username:  alperbassarac
 
 defaults:
   -

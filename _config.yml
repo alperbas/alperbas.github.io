@@ -1,23 +1,32 @@
 # Site settings
 title: 'Alper Başsaraç'
-description: 'LPIC'
-url: 'https://alperbas.github.io/' 
-baseurl: ''
+description: 'LPIC-1 MSCE ITIL SUSE VCA-DCV'
+url: 'http://' 
+baseurl: '/alperbas.github.io/'
 # google_analytics: 'UA-XXXXXX-X'
+disqus_shortname: 'alperbas'
 
 author:
   name: 'Alper Başsaraç'
   email: alper.bassarac@gmail.com
-  twitter_username: alper292
+  twitter_username: alperbas
   github_username:  alperbas
   linkedin_username:  alperbas
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
 # Build settings
 destination: _site
 paginate: 10
 permalink: /:year/:title/
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 kramdown:
   # use Github Flavored Markdown
@@ -25,4 +34,5 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
+gems: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

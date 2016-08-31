@@ -2,9 +2,9 @@
 title: 'Alper Başsaraç'
 description: 'LPIC-1 ITIL-F MCSE:SI SUSE-CLA VCA-DCV CCNA'
 url: 'http://' 
-baseurl: '/alperbas.github.io'
+baseurl: '/alperbas.github.io/'
 # google_analytics: 'UA-XXXXXX-X'
-disqus_shortname: 'alperbas'
+# disqus_shortname: 'alperbas'
 
 author:
   name: 'Alper Başsaraç'

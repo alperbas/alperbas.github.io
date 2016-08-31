@@ -5,8 +5,8 @@ locale: en_US
 description: Describe your website here.
 logo: site-logo.png
 search: true
-url: "alperbas.github.io"
-baseurl: "http://"
+url: "http://"
+baseurl: "alperbas.github.io"
 
 # Jekyll configuration
 

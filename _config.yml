@@ -1,15 +1,15 @@
 # Site settings
 title: 'Alper Başsaraç'
 description: 'LPIC-1 MSCE ITIL SUSE VCA-DCV'
-url: 'https://alperbas.github.io/' 
-baseurl: '/'
+url: 'http://' 
+baseurl: '/alperbas.github.io/'
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'alperbas'
 
 author:
   name: 'Alper Başsaraç'
   email: alper.bassarac@gmail.com
-  twitter_username: alper292
+  twitter_username: alperbas
   github_username:  alperbas
   linkedin_username:  alperbas
 

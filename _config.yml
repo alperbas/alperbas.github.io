@@ -1,16 +1,16 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno' 
-baseurl: '/jekyll-uno/'
+title: 'Alper Başsaraç'
+description: 'LPIC'
+url: 'https://alperbas.github.io/' 
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Alper Başsaraç'
+  email: alper.bassarac@gmail.com
+  twitter_username: alper292
+  github_username:  alperbas
+  linkedin_username:  alperbas
 
 # Build settings
 destination: _site

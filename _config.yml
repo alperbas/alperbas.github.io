@@ -1,59 +1,38 @@
-# Site wide configuration
+# Site settings
+title: 'Alper Başsaraç'
+description: 'LPIC-1, MCSE:SI, SUSE CLA, VCA-DCV, ITIL-F'
+url: 'http://alperbas.github.io' 
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'alperbas'
 
-title: Alper Başsaraç
-locale: en_US
-description: Describe your website here.
-logo: site-logo.png
-search: true
-url: http://alperbas.github.io
+author:
+  name: 'Alper Başsaraç'
+  email: alper.bassarac@gmail.com
+  twitter_username: alperbasssarac
+  github_username:  alperbas
+  linkedin_username:  alperbassarac
 
-# Jekyll configuration
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
-permalink:   /:categories/:title/
-markdown:    kramdown
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
 highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
 
 kramdown:
+  # use Github Flavored Markdown
   input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..2
-  enable_coderay: false
+  # do not replace newlines by <br>s
+  hard_wrap: false
 
-mathjax: true
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
-
-
-# Site owner
-owner:
-  name: Alper Başsaraç
-  avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
-  twitter: alper
-  facebook: #username
-  github: #username
-  stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
-  flickr: #username
-  tumblr: #username
-  pinterest: #username
-  weibo: #userid
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

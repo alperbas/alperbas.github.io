@@ -1,45 +1,34 @@
-# jekyll-uno
+# Darcli
 
-Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
+## Demo
 
-> :warning:
-  This theme requires ruby and rubygems installed
+You can see this theme on [gjuniioor.github.io/darcli](https://gjuniioor.github.io/darcli)
 
-### Features
+## Screenshot
 
-* Clean layout
-* Resposive layout
-* Pagination
-* Syntax highlighting
-* Social links
-* Tags listing page
-* Categories listing page
-* Google Analytics integration
-* Disqus integration
+![Screenshot of the them](assets/img/screenshot.png)
 
----
+## Why the name?
 
-### Install and Test
+It's just a joke: `dark + cli`.
 
-1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
-2. Enter the folder: `cd jekyll-uno/`
-3. If you don't have bundler installed: `gem install bundler`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `jekyll serve`
+## Features
 
-Access via: [http://localhost:4000/jekyll-uno](http://localhost:4000/jekyll-uno)
+* Categories
+* Disqus comments
+* SEO
+	* Description
+	* Keywords
+	* Open Cards to twitter, facebook, linkedin, google+ and others
+* Code post (but no highligth :] )
+* Atom **AND** RSS feeds
 
----
+## Warnings
 
-### Demo and Download
+This is a theme intended to use to [lampiaosec website](https://lampiaosec.github.io) and after was converted to a general theme to jekyll.
 
-[Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
+So, any questions, can you contact me ([@gjuniioor](https://github.com/gjuniioor)) or open a [issue](https://github.com/gjuniioor/darcli/issuesi).
 
-![jekyll-uno - free Jekyll theme](/screenshot.png)
+## License
 
----
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
+This theme is under [GPL3](assets/LICENSE).

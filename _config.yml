@@ -1,38 +1,28 @@
-# Site settings
-title: 'Alper Başsaraç'
-description: 'LPIC-1, MCSE:SI, SUSE CLA, VCA-DCV, ITIL-F'
-url: 'http://alperbas.github.io' 
-baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'alperbas'
+# Site specific settings
+title: "Alper Title"
+name: "alperbas"
+keywords: "Cok guzel bir web site"
+baseurl: "/darcli"
+url: "https://alperbas.github.io"
+description: "Website description"
+cover: "/assets/img/cover.svg"
+fanpage_id: ""
 
-author:
-  name: 'Alper Başsaraç'
-  email: alper.bassarac@gmail.com
-  twitter_username: alperbasssarac
-  github_username:  alperbas
-  linkedin_username:  alperbassarac
+# Site general settings
+lang: "en"
+lang_alternate: "pt_BR"
+ssl: false # It will redirect to https
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+# Media
+# Just the shortname:
+# facebook: lampiaosec # Rigth
+# facebook: facebook.com/lampiaosec # Wrong
+disqus: test
+twitter: 
+facebook: 
+github: 
+google:
 
 # Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
 markdown: kramdown
-highlighter: rouge
-
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-
-gems: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+permalink: /:categories/:title/

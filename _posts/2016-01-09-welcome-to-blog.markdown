@@ -4,4 +4,4 @@ date:   2016-01-09 15:04:23
 categories: [about]
 tags: [about]
 ---
-Cok yakinda yeni site ve forum sayfalarimizi yayina alacagiz.
+Soon...

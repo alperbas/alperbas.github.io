@@ -1,9 +1,22 @@
 #!/bin/bash
+
+
+# service up
+
+bundle exec jekyll serve --host 0.0.0.0 --detach
+if [ $? == '1' ]; then
+	pkill -f jekyll
+	exit 1
+fi
+
+# test page
+
 url='http://localhost:4000'
 attempts=5
 timeout=5
 online=false
 
+echo ""
 echo "Checking status of $url."
 
 for (( i=1; i<=$attempts; i++ ))
@@ -21,6 +34,8 @@ do
     sleep $timeout
   fi
 done
+
+pkill -f jekyll
 
 if $online; then
   echo "Monitor finished, website is online."
